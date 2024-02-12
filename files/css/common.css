@@ -43,6 +43,20 @@ main .enrich-subhead {
     font-size: 20px;
 }
 
+main .enrichment-navbar {
+    width: 100%;
+    height: 50px;
+}
+
+main .enrichment-navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 main h1 {
     color: rgb(61, 61, 61);
     font-size: 40px;
