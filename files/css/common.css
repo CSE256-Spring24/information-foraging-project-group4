@@ -34,6 +34,15 @@ main p {
     margin-bottom: 19.2px;
 }
 
+main .enrichment-titles {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+main .enrich-subhead {
+    font-size: 20px;
+}
+
 main h1 {
     color: rgb(61, 61, 61);
     font-size: 40px;
