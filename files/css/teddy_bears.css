@@ -65,7 +65,11 @@ main li {
   font-size: 1.15em;
 }
 
-#class-schedule strong {
+.class-schedule {
+  margin-top: 25px;
+}
+
+.class-schedule strong {
   color: rgb(85, 85, 85);
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
@@ -73,16 +77,16 @@ main li {
   line-height: 18px;
 }
 
-#class-schedule table {
+.class-schedule table {
   border-collapse: collapse;
 }
 
-#class-schedule tbody {
+.class-schedule tbody {
   display: table-row-group;
   vertical-align: middle;
 }
 
-#class-schedule td {
+.class-schedule td {
   border: 1px solid #ddd;
 }
 
@@ -199,50 +203,6 @@ main li {
   }
 }
 
-/* General Styles
-.div-16 {
-  border-radius: 40px;
-  border: 1px solid #000;
-  background-color: rgba(248, 248, 248, 0);
-  align-self: stretch;
-  display: flex;
-  margin-top: 76px;
-  flex-direction: column;
-  padding: 41px 28px;
-}
-.div-17 {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  font-size: 40px;
-  color: #3d3d3d;
-  font-weight: 400;
-  letter-spacing: 0.4px;
-  line-height: 120%;
-  padding: 0 2px;
-}
-.div-18, .div-22, .div-23, .div-25, .div-26, .div-28, .div-29, .div-31, .div-32, .div-34, .div-35, .div-37, .div-38, .div-40, .div-41, .div-43, .div-58, .div-60, .div-62 {
-  font-family: Source Sans Pro, sans-serif;
-  flex-grow: 1;
-  justify-content: center;
-  align-items: start;
-}
-.div-18, .div-19, .div-20, .div-22, .div-23, .div-25, .div-26, .div-28, .div-29, .div-31, .div-32, .div-34, .div-35, .div-37, .div-38, .div-40, .div-41, .div-43, .div-45, .div-49, .div-50, .div-53, .div-54 {
-  color: #555;
-}
-.img, .img-2, .img-3, .img-4, .img-5, .img-6 {
-  object-fit: auto;
-  object-position: center;
-  width: 125px;
-  max-width: 100%;
-}
-.div-21, .div-24, .div-27, .div-30, .div-33, .div-36, .div-39, .div-42, .div-57, .div-59, .div-61 {
-  background-color: #ffeded;
-  display: flex;
-  justify-content: space-between;
-  gap: 0px;
-  */
-
 .class-container {
   border-radius: 40px;
   border: 1px solid #000;
@@ -271,15 +231,14 @@ main li {
   margin: auto 0;
 }
 .img {
-  object-fit: auto;
   object-position: center;
-  width: 125px;
+  width: 90px;
   max-width: 100%;
 }
 
 .class-desc {
   color: #555;
-  margin-top: 7px;
+  margin-top: 14px;
   font: 400 19px/28px Source Sans Pro, -apple-system, Roboto, Helvetica,
     sans-serif;
 }
@@ -311,7 +270,6 @@ main li {
   padding: 12px 17px 21px;
 }
 .img-2 {
-  aspect-ratio: 0.93;
   object-fit: auto;
   object-position: center;
   width: 100%;
@@ -358,7 +316,6 @@ main li {
 }
 
 .img-3 {
-  aspect-ratio: 0.9;
   object-fit: auto;
   object-position: center;
   width: 100%;
@@ -377,7 +334,6 @@ main li {
 .div-55 {
   background-color: #007360;
   align-self: center;
-  margin-top: 10px;
   justify-content: center;
   color: #fff;
   white-space: nowrap;
@@ -459,4 +415,20 @@ main li {
   object-position: center;
   width: 39px;
   margin-top: 4px;
+}
+
+.div-51 a {
+  color: #fff;
+}
+
+.div-55 a {
+  color: #fff;
+}
+
+#lm-katie {
+  margin-top: 40px;
+}
+
+#lm-marsha {
+  margin-top: 63px;
 }
