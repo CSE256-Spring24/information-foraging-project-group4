@@ -1,5 +1,4 @@
 @import url("common.css");
-@import url("slideshow.css");
 @import url("side_menu.css");
 @import url("staff_entry.css");
 .announcements h4 {
@@ -26,10 +25,6 @@
 #small-image-collection {
   overflow: auto;
   clear: both;
-}
-
-#title-tp {
-  margin-bottom: 10px;
 }
 
 main strong {
@@ -282,7 +277,6 @@ main li {
 .div-50 {
   color: #555;
   margin-top: 14px;
-  white-space: nowrap;
   font: 16px/144% Source Sans Pro, -apple-system, Roboto, Helvetica, sans-serif;
 }
 
@@ -425,10 +419,14 @@ main li {
   color: #fff;
 }
 
-#lm-katie {
+#lm-chona2 {
   margin-top: 40px;
 }
 
-#lm-marsha {
+#lm-katie {
+  margin-top: 63px;
+}
+
+#lm-heather {
   margin-top: 63px;
 }
