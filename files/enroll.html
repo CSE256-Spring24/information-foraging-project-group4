@@ -22,7 +22,7 @@
               <legend class="frm_hidden">
                 Washington University Nursery School Enrollment Form
               </legend>
-
+              <br>
               <div class="frm_fields_container">
                 <input type="hidden" name="frm_action" value="create">
                 <input type="hidden" name="form_id" value="209">
@@ -33,6 +33,7 @@
                   type="hidden" name="_wp_http_referer" value="/forms/enrollment-form-2/"><label for="frm_verify_209"
                   class="frm_screen_reader frm_hidden">If you are human, leave this field blank.</label>
                 <input type="text" class="frm_hidden frm_verify" id="frm_verify_209" name="frm_verify" value="">
+                
                 <div id="frm_field_1382_container"
                   class="frm_form_field form-field frm_required_field frm_top_container">
                   <label for="field_ig6vz" class="frm_primary_label">Date entering Nursery School
@@ -49,7 +50,7 @@
                   <input type="text" id="field_iid6l" name="item_meta[1383]" value=""
                     data-reqmsg="This field cannot be blank." data-invmsg="Child's full name is invalid"
                     aria-describedby="frm_desc_field_iid6l">
-                  <div class="frm_description">First/Middle/Last</div>
+                  <div class="frm_description">(First/Middle/Last)</div>
                 </div>
                 <div id="frm_field_1384_container" class="frm_form_field form-field frm_top_container">
                   <label for="field_r881v" class="frm_primary_label">Child's preferred nickname
@@ -58,13 +59,15 @@
                   <input type="text" id="field_r881v" name="item_meta[1384]" value=""
                     data-invmsg="Child's preferred nickname is invalid">
                 </div>
+                <br>
                 <div id="frm_field_1385_container" class="frm_form_field form-field frm_top_container">
-                  <label for="field_bbkhx" class="frm_primary_label">Address
+                  <label for="field_bbkhx" class="frm_primary_label">
                     <span class="frm_required"></span>
                   </label>
                   <fieldset>
+                    <br>
                     <legend class="frm_screen_reader frm_hidden">
-                      Address
+                      <strong>Address*</strong>
                     </legend>
                     <div class="frm_combo_inputs_container">
                       <div id="frm_field_1385-line1_container" class="frm_form_field form-field">
@@ -74,16 +77,16 @@
                         <input type="text" id="field_bbkhx_line1" value="" name="item_meta[1385][line1]"
                           data-invmsg="Address is invalid" x-autocompletetype="address-line1"
                           autocompletetype="address-line1">
-                        <div class="frm_description">Street Address</div>
+                        <!-- <div class="frm_description">Street Address</div> -->
                       </div>
                       <div id="frm_field_1385-line2_container" class="frm_form_field form-field">
                         <label for="field_bbkhx_line2" class="frm_screen_reader frm_hidden">
-                          Address Line 2
+                          Street Address Address Line 2
                         </label>
                         <input type="text" id="field_bbkhx_line2" value="" name="item_meta[1385][line2]"
                           data-invmsg="Address is invalid" class="frm_optional" x-autocompletetype="address-line2"
                           autocompletetype="address-line2">
-                        <div class="frm_description">Address Line 2</div>
+                        <!-- <div class="frm_description">Address Line 2</div> -->
                       </div>
                       <div id="frm_field_1385-city_container" class="frm_form_field form-field frm_third frm_first">
                         <label for="field_bbkhx_city" class="frm_screen_reader frm_hidden">
@@ -91,7 +94,7 @@
                         </label>
                         <input type="text" id="field_bbkhx_city" value="" name="item_meta[1385][city]"
                           data-invmsg="Address is invalid" x-autocompletetype="city" autocompletetype="city">
-                        <div class="frm_description">City</div>
+                        <!-- <div class="frm_description">City</div> -->
                       </div>
                       <div id="frm_field_1385-state_container" class="frm_form_field form-field frm_third">
                         <label for="field_bbkhx_state" class="frm_screen_reader frm_hidden">
@@ -99,7 +102,7 @@
                         </label>
                         <input type="text" id="field_bbkhx_state" value="" name="item_meta[1385][state]"
                           data-invmsg="Address is invalid" x-autocompletetype="state" autocompletetype="state">
-                        <div class="frm_description">State/Province</div>
+                        <!-- <div class="frm_description">State/Province</div> -->
                       </div>
                       <div id="frm_field_1385-zip_container" class="frm_form_field form-field frm_third">
                         <label for="field_bbkhx_zip" class="frm_screen_reader frm_hidden">
@@ -108,7 +111,7 @@
                         <input type="text" id="field_bbkhx_zip" value="" name="item_meta[1385][zip]"
                           data-invmsg="Address is invalid" x-autocompletetype="postal-zip"
                           autocompletetype="postal-zip">
-                        <div class="frm_description">Zip/Postal</div>
+                        <!-- <div class="frm_description">Zip/Postal</div> -->
                       </div>
                       <div id="frm_field_1385-country_container" class="frm_form_field form-field">
                         <label for="field_bbkhx_country" class="frm_screen_reader frm_hidden">
@@ -374,20 +377,23 @@
                           <option value="Yemen">Yemen</option>
                           <option value="Zambia">Zambia</option>
                           <option value="Zimbabwe">Zimbabwe</option>
-                        </select>
-                        <div class="frm_description">Country</div>
-                      </div>
+                        </select>                        
+                        <!-- <div class="frm_description">Country</div> -->
+                      </div>                      
                     </div>
+                    <br>
                   </fieldset>
                 </div>
+                
                 <div id="frm_field_1386_container"
                   class="frm_form_field form-field frm_required_field frm_top_container">
-                  <label for="field_cuout" class="frm_primary_label">Date of Birth
+                  <label for="field_cuout" class="frm_primary_label"><strong>Date of Birth</strong>
                     <span class="frm_required">*</span>
                   </label>
                   <input type="text" id="field_cuout" name="item_meta[1386]" value="" maxlength="10"
                     data-reqmsg="This field cannot be blank." data-invmsg="Date of Birth is invalid" class="frm_date">
                 </div>
+                <br>
                 <div id="frm_field_1387_container"
                   class="frm_form_field form-field frm_required_field frm_top_container vertical_radio">
                   <label class="frm_primary_label">Gender
@@ -407,6 +413,7 @@
                     </div>
                   </div>
                 </div>
+                <br>
                 <div id="frm_field_1388_container"
                   class="frm_form_field form-field frm_required_field frm_top_container vertical_radio">
                   <label class="frm_primary_label">Child's Class
@@ -468,6 +475,7 @@
                         Summer Camp</label>
                     </div>
                   </div>
+                <br>  
                 </div>
                 <div id="frm_field_1389_container"
                   class="frm_form_field form-field frm_required_field frm_top_container">
@@ -555,7 +563,7 @@
                         <input type="text" id="field_6yf80_state" value="" name="item_meta[1393][state]"
                           data-reqmsg="This field cannot be blank." data-invmsg="Address is invalid"
                           x-autocompletetype="state" autocompletetype="state">
-                        <div class="frm_description">State/Province</div>
+                        <!-- <div class="frm_description">State/Province</div> -->
                       </div>
                       <div id="frm_field_1393-zip_container" class="frm_form_field form-field frm_third">
                         <label for="field_6yf80_zip" class="frm_screen_reader frm_hidden">
@@ -564,7 +572,7 @@
                         <input type="text" id="field_6yf80_zip" value="" name="item_meta[1393][zip]"
                           data-reqmsg="This field cannot be blank." data-invmsg="Address is invalid"
                           x-autocompletetype="postal-zip" autocompletetype="postal-zip">
-                        <div class="frm_description">Zip/Postal</div>
+                        <!-- <div class="frm_description">Zip/Postal</div> -->
                       </div>
                       <div id="frm_field_1393-country_container" class="frm_form_field form-field">
                         <label for="field_6yf80_country" class="frm_screen_reader frm_hidden">
@@ -831,7 +839,7 @@
                           <option value="Zambia">Zambia</option>
                           <option value="Zimbabwe">Zimbabwe</option>
                         </select>
-                        <div class="frm_description">Country</div>
+                        <!-- <div class="frm_description">Country</div> -->
                       </div>
                     </div>
                   </fieldset>
