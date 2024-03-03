@@ -1,3 +1,18 @@
 @import url("common.css");
 @import url("side_menu.css");
 @import url("staff_entry.css");
+
+.enrichment-navbar {
+  display: flex;
+  background-color: #007360;
+  justify-content: space-around;
+}
+
+.enrichment-navbar a {
+  color: white;
+}
+
+.enrichment-navbar a:hover {
+  color: #e7e7e7;
+  font-weight: bold;
+}
