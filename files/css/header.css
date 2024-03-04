@@ -15,6 +15,13 @@ header {
   background-color: #3d3d3d;
 }
 
+.nav-container{
+  width: 92%;
+  max-width: 77em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
   width: 92%;
   max-width: 77em;
