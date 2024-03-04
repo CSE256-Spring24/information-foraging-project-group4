@@ -1,26 +1,61 @@
 @import url("common.css");
 @import url("side_menu.css");
 main ul {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 main li {
-    font-size: 1.15em;
-    margin-bottom: 1em;
+  font-size: 1.15em;
+  margin-bottom: 1em;
 }
 
 .classroom {
-    margin-top: 6em;
-    margin-bottom: 1em;
-    clear: both;
-    overflow: hidden;
+  margin-top: 6em;
+  margin-bottom: 1em;
+  clear: both;
+  overflow: hidden;
 }
 
 .classroom img {
-    float: left;
-    margin-right: 2.5em;
+  float: left;
+  margin-right: 2.5em;
 }
 
 .classroom p {
-    font-size: 1.15em;
+  font-size: 1.15em;
+}
+
+.curriculum-navbar {
+  display: flex;
+  background-color: #007360;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1205px;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 12px;
+}
+
+.curriculum-navbar a {
+  color: white;
+  text-align: center;
+  font-size: large;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.curriculum-navbar a:hover {
+  color: #e7e7e7;
+  font-weight: bold;
+}
+
+.subject-title {
+  font-size: 35px;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+ul {
+  padding-left: 100px;
+  line-height: normal;
 }
